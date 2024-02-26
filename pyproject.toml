@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "littlelemon"
+version = "0.1.0"
+description = "django based project, follow course on coursera: Backend developer, by Meta"
+authors = ["thanhphuong1623 <thanh.phuong@aivision.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
