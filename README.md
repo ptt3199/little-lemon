@@ -19,3 +19,17 @@ poetry init
 ```bash
 poetry add django
 ```
+### 3. Create a django project
+```bash
+django-admin startproject LittleLemon .
+```
+### 4. Start app and run all the migrations
+```bash
+python manage.py startapp LittleLemonAPI
+python manage.py migrate
+```
+
+## Run the server
+```bash
+python manage.py runserver 8001
+```
